@@ -13,13 +13,13 @@ import pandas as pd
 
 import torch
 
-from substring_nli.utils.tester import Tester
-from substring_nli.corpus.lang import Lang
-from substring_nli.utils.io import load_pickle
-from substring_nli.models.base import NLIClassifier
-from substring_nli.config import CACHE_PATH
+from src.utils.tester import Tester
+from src.corpus.lang import Lang
+from src.utils.io import load_pickle
+from src.models.base import NLIClassifier
+from src.config import CACHE_PATH
 
-from substring_nli.utils.word_similarity import evaluate_similarity_in_all
+from src.utils.word_similarity import evaluate_similarity_in_all
 
 random.seed(42)
 torch.manual_seed(42)

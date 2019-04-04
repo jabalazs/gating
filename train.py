@@ -5,22 +5,22 @@ import numpy as np
 
 from tqdm import tqdm
 
-from substring_nli.corpus.corpus import MultiNLICorpus, SNLICorpus
-from substring_nli.corpus.embeddings import Embeddings
-from substring_nli.utils.logger import Logger
-from substring_nli.utils.torch import normalize_embeddings
-from substring_nli.trainer import Trainer
-from substring_nli.optim.optim import OptimWithDecay
-from substring_nli import config
-from substring_nli.layers.layers import CharEncoder
+from src.corpus.corpus import MultiNLICorpus, SNLICorpus
+from src.corpus.embeddings import Embeddings
+from src.utils.logger import Logger
+from src.utils.torch import normalize_embeddings
+from src.trainer import Trainer
+from src.optim.optim import OptimWithDecay
+from src import config
+from src.layers.layers import CharEncoder
 
-from substring_nli.models.base import (
+from src.models.base import (
     NLIClassifier,
     WordEncodingLayer,
     WordCharEncodingLayer,
     SentenceEncodingLayer,
 )
-from substring_nli.models.helpers import evaluate
+from src.models.helpers import evaluate
 
 from base_args import base_parser, CustomArgumentParser
 

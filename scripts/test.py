@@ -7,10 +7,10 @@ from glob import glob
 import numpy as np
 import torch
 
-from substring_nli import config
-from substring_nli.corpus.corpus import SNLICorpus
-from substring_nli.models.helpers import evaluate
-from substring_nli.utils.ops import np_softmax
+from src import config
+from src.corpus.corpus import SNLICorpus
+from src.models.helpers import evaluate
+from src.utils.ops import np_softmax
 
 arg_parser = argparse.ArgumentParser()
 

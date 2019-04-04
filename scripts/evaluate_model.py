@@ -12,10 +12,10 @@ import torch
 
 import numpy as np
 
-from substring_nli import config
-from substring_nli.corpus.lang import Lang
-from substring_nli.seq_utils.pad import Padder
-from substring_nli.utils.torch import to_var
+from src import config
+from src.corpus.lang import Lang
+from src.seq_utils.pad import Padder
+from src.utils.torch import to_var
 
 import colored_traceback
 

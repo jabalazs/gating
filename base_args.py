@@ -1,6 +1,6 @@
 import argparse
 
-from substring_nli.utils.logger import Logger
+from src.utils.logger import Logger
 
 
 class CustomFormatter(

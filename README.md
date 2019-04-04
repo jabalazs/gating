@@ -11,7 +11,7 @@ please consider citing the paper.
 1. Clone this repo                                                                                                           
 
    ```bash
-   git clone https://github.com/jabalazs/substring_nli
+   git clone https://github.com/jabalazs/gating
    cd gating
    ```
 
@@ -156,6 +156,6 @@ this repo was forked from commit
 [`906b34a`](https://github.com/facebookresearch/SentEval/tree/906b34ae5ffbe17a6970947d5dd5e500ff6daf59).
 
 `word-embeddings-benchmark` (web) is licensed under the
-[MIT](substring_nli/third_party/web/LICENSE) license. The version
+[MIT](src/third_party/web/LICENSE) license. The version
 in this repo was forked from
 commit[`8fd0489`](https://github.com/kudkudak/word-embeddings-benchmarks/commit/8fd04891a92d313cc3b6956a43f25c9e44022e0e).

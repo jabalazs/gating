@@ -128,4 +128,4 @@ try:
 except FileNotFoundError:
     pass
 
-SPREADSHEET_NAME = "substring_nli-03"
+SPREADSHEET_NAME = "gating"
