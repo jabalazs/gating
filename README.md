@@ -151,11 +151,11 @@ After evaluating every model in `data/trained_models`, the file
 
 This code is licensed under the [MIT](LICENSE) license.
 
-`SentEval` is licensed under the [BSD license](SentEval/LICENSE). The version in
+`SentEval` is licensed under the [BSD](SentEval/LICENSE) license. The version in
 this repo was forked from commit
 [`906b34a`](https://github.com/facebookresearch/SentEval/tree/906b34ae5ffbe17a6970947d5dd5e500ff6daf59).
 
 `word-embeddings-benchmark` (web) is licensed under the
 [MIT](src/third_party/web/LICENSE) license. The version
 in this repo was forked from
-commit[`8fd0489`](https://github.com/kudkudak/word-embeddings-benchmarks/commit/8fd04891a92d313cc3b6956a43f25c9e44022e0e).
+commit[`8fd0489`](https://github.com/kudkudak/word-embeddings-benchmarks/tree/8fd04891a92d313cc3b6956a43f25c9e44022e0e).
