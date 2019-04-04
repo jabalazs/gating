@@ -1,0 +1,28 @@
+#!/bin/bash
+
+sqlite3 --header --column runs.db 'SELECT datetime as date,
+                                       SUBSTR(hash, 0, 8) as hash,
+                                       SUBSTR("commit", 0, 8) as "commit",
+                                       --server_name,
+                                       seed,
+                                       embeddings as emb,
+                                       finetune_word_embeddings as fwe,
+                                       embeddings_norm_dim as end,
+                                       corpus,
+                                       mismatched_dev as mismatched,
+                                       --model,
+                                       word_encoding_method as wem,
+                                       word_char_aggregation_method as wcam,
+                                       batch_size as batch,
+                                       --train_data_proportion as tdp,
+                                       --dev_data_proportion as ddp,
+                                       optim,
+                                       learning_rate as lr_0,
+                                       learning_rate_decay as lrd,
+                                       start_decay_at as sda,
+                                       update_learning_rate as ulr,
+                                       ROUND(best_valid_acc, 4) AS acc,
+                                       best_epoch
+                                   FROM runs
+                                   ORDER BY datetime DESC
+                                   LIMIT 200'

@@ -1,0 +1,10 @@
+pandas
+nltk
+scikit-learn
+scipy
+colored_traceback
+tqdm
+ipdb
+dataset
+gspread
+oauth2client
