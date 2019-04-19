@@ -1,9 +1,9 @@
-
 # Gating Mechanisms
 
-Code accompanying the paper "Gating Mechanisms for Combining Character and
-Word-level Word Representations: An Empirical Study". If you use use this code
-please consider citing the paper.
+Code accompanying the paper [Gating Mechanisms for Combining Character and
+Word-level Word Representations: An Empirical
+Study](https://arxiv.org/abs/1904.05584). If you use use this code please
+consider citing the paper.
 
 
 ## Installation instructions
